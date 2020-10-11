@@ -7,6 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     
     <TextView
+        android:id="@+id/txtShow"
         android:gravity="center_vertical"
         android:paddingRight="10dp"
         android:background="#C1C1C1"
@@ -16,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:text="0"
+        android:maxLength="6"
         >
 
 
@@ -42,6 +44,7 @@
                 android:textSize="30dp"
                 android:background="#C1C1C1"
                 android:layout_marginRight="3pt"
+                android:onClick="numberEvent"
                 >
             </Button>
 
@@ -54,6 +57,7 @@
                 android:text="C"
                 android:textSize="30dp"
                 android:layout_marginRight="3pt"
+                android:onClick="numberEvent"
                 >
 
 
@@ -67,6 +71,7 @@
                 android:text="BS"
                 android:textSize="30dp"
                 android:layout_marginRight="3pt"
+                android:onClick="numberEvent"
                 >
 
 
@@ -79,6 +84,7 @@
                 android:layout_height="match_parent"
                 android:text="/"
                 android:textSize="30dp"
+                android:onClick="numberEvent"
 
                 >
 
@@ -100,6 +106,7 @@
                 android:layout_height="match_parent"
                 android:text="7"
                 android:textSize="30dp"
+                android:onClick="numberEvent"
                 >
             </Button>
 
@@ -112,6 +119,7 @@
                 android:layout_height="match_parent"
                 android:text="8"
                 android:textSize="30dp"
+                android:onClick="numberEvent"
                 >
 
 
@@ -125,6 +133,7 @@
                 android:text="9"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -137,6 +146,7 @@
                 android:text="x"
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
 
 
@@ -157,6 +167,7 @@
                 android:text="4"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
             </Button>
 
@@ -169,6 +180,7 @@
                 android:text="5"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -182,6 +194,7 @@
                 android:text="6"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -195,6 +208,7 @@
                 android:text="-"
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
 
 
@@ -216,6 +230,7 @@
                 android:text="1"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
             </Button>
 
@@ -228,6 +243,7 @@
                 android:text="2"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -241,6 +257,7 @@
                 android:text="3"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -253,6 +270,7 @@
                 android:text="+"
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
 
 
@@ -274,6 +292,7 @@
                 android:text="+/-"
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
             </Button>
 
@@ -286,6 +305,7 @@
                 android:text="0"
                 android:textSize="30dp"
                 android:background="#DADADA"
+                android:onClick="numberEvent"
                 >
 
 
@@ -299,6 +319,7 @@
                 android:text="."
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
 
 
@@ -312,6 +333,7 @@
                 android:text="="
                 android:textSize="30dp"
                 android:background="#C1C1C1"
+                android:onClick="numberEvent"
                 >
 
 
